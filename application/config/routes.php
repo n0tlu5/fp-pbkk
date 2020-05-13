@@ -57,4 +57,5 @@ $route['controller'] = 'home/homepage';
 
 $route['controller'] = 'auth/login';
 $route['controller'] = 'auth/register';
-$route['controller'] = 'auth/admin';
+
+$route['controller'] = 'admin/admin';
