@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Flare</title>
+    <title>Marketplace</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
