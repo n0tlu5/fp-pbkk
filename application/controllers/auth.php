@@ -18,7 +18,7 @@ class Auth extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
+	public function login()
 	{
         $this->load->view('templates/auth_header');
         $this->load->view('auth/login');
@@ -26,7 +26,7 @@ class Auth extends CI_Controller {
 
     }
     
-	public function registration()
+	public function register()
 	{
         $this->load->view('templates/auth_header');
         $this->load->view('auth/registration');
