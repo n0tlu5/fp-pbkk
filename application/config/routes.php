@@ -55,7 +55,6 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['controller'] = 'home/homepage';
 
-$route['controller'] = 'auth/login';
-$route['controller'] = 'auth/register';
+$route['controller'] = 'auth';
 
 $route['controller'] = 'admin/admin';
