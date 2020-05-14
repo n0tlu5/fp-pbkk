@@ -20,13 +20,13 @@
 				<div class="container-fluid">
 					<!-- Page Heading -->
 					<div class="d-sm-flex align-items-center justify-content-between mb-4">
-						<h1 class="h3 mb-0 text-gray-800">Product List</h1>
+						<h1 class="h3 mb-0 text-gray-800">Donasi List</h1>
 					</div>
 
 					<!-- DataTables -->
 					<div class="card mb-3">
 						<div class="card-header">
-							<a href="<?php echo site_url('admin/products/add') ?>"><i class="fas fa-plus"></i> Add New</a>
+							<a href="<?php echo site_url('dashboard/donasi/add') ?>"><i class="fas fa-plus"></i> Add New</a>
 						</div>
 						<div class="card-body">
 
@@ -55,7 +55,7 @@
 											<td class="small">
 												harga
 											<td width="250">
-												<a href="<?php echo site_url('admin/products/edit/1') ?>"
+												<a href="<?php echo site_url('dashboard/donasi/edit/1') ?>"
 												class="btn btn-small"><i class="fas fa-edit"></i> Edit</a>
 												<a onclick="deleteConfirm(test)"
 												href="#!" class="btn btn-small text-danger"><i class="fas fa-trash"></i> Hapus</a>
@@ -102,7 +102,7 @@
 		}
 
 		function deleteAction(id){
-        	window.location.href = `/admin/products/delete/${id}`
+        	window.location.href = `/admin/donasi/delete/${id}`
 		}
 	</script>
 	
