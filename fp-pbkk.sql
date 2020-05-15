@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Waktu pembuatan: 14 Bulan Mei 2020 pada 08.19
--- Versi server: 10.4.6-MariaDB
--- Versi PHP: 7.3.9
+-- Host: localhost
+-- Generation Time: May 16, 2020 at 01:52 AM
+-- Server version: 10.4.11-MariaDB
+-- PHP Version: 7.4.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -25,7 +24,38 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `user`
+-- Table structure for table `donasi`
+--
+
+CREATE TABLE `donasi` (
+  `donasi_id` varchar(32) NOT NULL,
+  `nama` varchar(64) NOT NULL,
+  `no_hp` int(11) NOT NULL,
+  `email` varchar(64) NOT NULL,
+  `jenis` text NOT NULL,
+  `kuantitas` int(11) NOT NULL,
+  `keterangan` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `kebutuhan`
+--
+
+CREATE TABLE `kebutuhan` (
+  `kebutuhan_id` varchar(32) NOT NULL,
+  `nama` varchar(64) NOT NULL,
+  `jenis` varchar(64) NOT NULL,
+  `jumlah` int(11) NOT NULL,
+  `satuan` varchar(32) NOT NULL,
+  `keterangan` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user`
 --
 
 CREATE TABLE `user` (
@@ -42,7 +72,7 @@ CREATE TABLE `user` (
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `user_role`
+-- Table structure for table `user_role`
 --
 
 CREATE TABLE `user_role` (
@@ -51,7 +81,7 @@ CREATE TABLE `user_role` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `user_role`
+-- Dumping data for table `user_role`
 --
 
 INSERT INTO `user_role` (`id`, `role`) VALUES
@@ -63,29 +93,41 @@ INSERT INTO `user_role` (`id`, `role`) VALUES
 --
 
 --
--- Indeks untuk tabel `user`
+-- Indexes for table `donasi`
+--
+ALTER TABLE `donasi`
+  ADD PRIMARY KEY (`donasi_id`);
+
+--
+-- Indexes for table `kebutuhan`
+--
+ALTER TABLE `kebutuhan`
+  ADD PRIMARY KEY (`kebutuhan_id`);
+
+--
+-- Indexes for table `user`
 --
 ALTER TABLE `user`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indeks untuk tabel `user_role`
+-- Indexes for table `user_role`
 --
 ALTER TABLE `user_role`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT untuk tabel yang dibuang
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT untuk tabel `user`
+-- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT untuk tabel `user_role`
+-- AUTO_INCREMENT for table `user_role`
 --
 ALTER TABLE `user_role`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
