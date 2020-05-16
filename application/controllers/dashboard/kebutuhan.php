@@ -8,8 +8,8 @@ class Kebutuhan extends CI_Controller {
         parent::__construct();
         $this->load->model("kebutuhan_model");
         $this->load->library('form_validation');
-        $this->load->model("user_model");
-		if($this->user_model->isNotLogin()) redirect(site_url('admin/login'));
+        // $this->load->model("user_model");
+		// if($this->user_model->isNotLogin()) redirect(site_url('admin/login'));
     }
 
     public function index() 
