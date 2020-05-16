@@ -20,15 +20,14 @@ class Donasi extends CI_Controller {
 
     public function add() 
 	{
-		// if($this->session->user_logged->role != "admin") redirect(site_url('admin/categories'));
-        // $category = $this->category_model;
-        // $validation = $this->form_validation;
-        // $validation->set_rules($category->rules());
+        $donasi = $this->donasi_model;
+        $validation = $this->form_validation;
+        $validation->set_rules($donasi->rules());
 
-        // if ($validation->run()) {
-        //     $category->save();
-        //     $this->session->set_flashdata('success', 'Berhasil disimpan');
-        // }
+        if ($validation->run()) {
+            $donasi->save();
+            $this->session->set_flashdata('success', 'Berhasil disimpan');
+        }
 
         $this->load->view("admin/donasi/new_form");
     }

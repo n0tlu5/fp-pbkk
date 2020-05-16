@@ -36,51 +36,64 @@
 
 							<form action="<?php base_url('dashboard/donasi/add') ?>" method="post" enctype="multipart/form-data" >
 								<div class="form-group">
-									<label for="category_id">Category*</label>
-									<select class="form-control <?php echo form_error('category_id') ? 'is-invalid':'' ?>" name="category_id" id="category_id">
-									<?php foreach ($cats as $cat): ?>
-										<option value="<?php echo $cat->id; ?>"><?php echo $cat->category_name; ?></option>
-									<?php endforeach; ?>
+								</div>
+
+								<div class="form-group">
+									<label for="nama">Nama Donatur*</label>
+									<input class="form-control <?php echo form_error('nama') ? 'is-invalid':'' ?>"
+									type="text" name="nama" placeholder="Budi Santoso" />
+									<div class="invalid-feedback">
+										<?php echo form_error('nama') ?>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label for="email">Alamat Email Donatur*</label>
+									<input class="form-control <?php echo form_error('email') ? 'is-invalid':'' ?>"
+									type="email" name="email" min="0" placeholder="budi21@domain.com" />
+									<div class="invalid-feedback">
+										<?php echo form_error('email') ?>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="no_hp">Nomor HP Donatur*</label>
+									<input class="form-control <?php echo form_error('no_hp') ? 'is-invalid':'' ?>"
+									type="text" name="no_hp" min="0" placeholder="08xxxxxxxxxx" />
+									<div class="invalid-feedback">
+										<?php echo form_error('no_hp') ?>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="jenis">Jenis Donasi*</label>
+									<select class="form-control <?php echo form_error('jenis') ? 'is-invalid':'' ?>" name="jenis" id="jenis">
+										<option value="sembako">Sembako</option>
+										<option value="tunai">Tunai</option>
+										<option value="apd">APD</option>
+										<option value="obat">Obat</option>
+										<option value="lain-lain">Lainnya</option>
 									</select>
 									<div class="invalid-feedback">
-										<?php echo form_error('category_id') ?>
+										<?php echo form_error('jenis') ?>
 									</div>
 								</div>
 
 								<div class="form-group">
-									<label for="name">Name*</label>
-									<input class="form-control <?php echo form_error('name') ? 'is-invalid':'' ?>"
-									type="text" name="name" placeholder="Product name" />
+									<label for="kuantitas">Kuantitas*</label>
+									<input class="form-control <?php echo form_error('kuantitas') ? 'is-invalid':'' ?>"
+									type="number" name="kuantitas" min="0" placeholder="0" />
 									<div class="invalid-feedback">
-										<?php echo form_error('name') ?>
+										<?php echo form_error('kuantitas') ?>
 									</div>
 								</div>
 
 								<div class="form-group">
-									<label for="price">Price*</label>
-									<input class="form-control <?php echo form_error('price') ? 'is-invalid':'' ?>"
-									type="number" name="price" min="0" placeholder="Product price" />
+									<label for="keterangan">Keterangan*</label>
+									<input class="form-control <?php echo form_error('keterangan') ? 'is-invalid':'' ?>"
+									type="text" name="keterangan" min="0" placeholder="satuan dsb" />
 									<div class="invalid-feedback">
-										<?php echo form_error('price') ?>
-									</div>
-								</div>
-
-
-								<div class="form-group">
-									<label for="name">Photo</label>
-									<input class="form-control-file <?php echo form_error('price') ? 'is-invalid':'' ?>"
-									type="file" name="image" />
-									<div class="invalid-feedback">
-										<?php echo form_error('image') ?>
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label for="name">Description*</label>
-									<textarea class="form-control <?php echo form_error('description') ? 'is-invalid':'' ?>"
-									name="description" placeholder="Product description..."></textarea>
-									<div class="invalid-feedback">
-										<?php echo form_error('description') ?>
+										<?php echo form_error('keterangan') ?>
 									</div>
 								</div>
 
