@@ -35,8 +35,6 @@
 						<div class="card-body">
 
 							<form action="<?php base_url('dashboard/donasi/add') ?>" method="post">
-								<div class="form-group">
-								</div>
 
 								<div class="form-group">
 									<label for="nama">Nama Donatur*</label>
