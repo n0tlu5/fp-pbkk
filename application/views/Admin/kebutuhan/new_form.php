@@ -30,7 +30,7 @@
 
 					<div class="card mb-3">
 						<div class="card-header">
-							<a href="<?php echo site_url('dashboard/donasi/') ?>"><i class="fas fa-arrow-left"></i> Back</a>
+							<a href="<?php echo site_url('dashboard/kebutuhan/') ?>"><i class="fas fa-arrow-left"></i> Back</a>
 						</div>
 						<div class="card-body">
 
