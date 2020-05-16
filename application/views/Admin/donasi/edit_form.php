@@ -40,54 +40,63 @@
 							<form action="<?php base_url('dashboard/donasi/edit') ?>" method="post">
 
 								<input type="hidden" name="id" value="1" />
+								
+								<div class="form-group">
+									<label for="nama">Nama Donatur*</label>
+									<input class="form-control <?php echo form_error('nama') ? 'is-invalid':'' ?>"
+									type="text" name="nama" placeholder="Budi Santoso" value="<?php echo $donasi->nama?>"/>
+									<div class="invalid-feedback">
+										<?php echo form_error('nama') ?>
+									</div>
+								</div>
+								
+								<div class="form-group">
+									<label for="email">Alamat Email Donatur*</label>
+									<input class="form-control <?php echo form_error('email') ? 'is-invalid':'' ?>"
+									type="email" name="email" min="0" placeholder="budi21@domain.com" value="<?php echo $donasi->email?>"/>
+									<div class="invalid-feedback">
+										<?php echo form_error('email') ?>
+									</div>
+								</div>
 
 								<div class="form-group">
-									<label for="category_id">Category*</label>
-									<select class="form-control <?php echo form_error('category_id') ? 'is-invalid':'' ?>" name="category_id" id="category_id">
-									<?php foreach ($cats as $cat): ?>
-										<option value="<?php echo $cat->id; ?>" <?php echo $cat->id == $donasi>category_id?'selected':''?>><?php echo $cat->category_name; ?></option>
-									<?php endforeach; ?>
+									<label for="no_hp">Nomor HP Donatur*</label>
+									<input class="form-control <?php echo form_error('no_hp') ? 'is-invalid':'' ?>"
+									type="text" name="no_hp" min="0" placeholder="08xxxxxxxxxx" value="<?php echo $donasi->no_hp?>"/>
+									<div class="invalid-feedback">
+										<?php echo form_error('no_hp') ?>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="jenis">Jenis Donasi*</label>
+									<select class="form-control <?php echo form_error('jenis') ? 'is-invalid':'' ?>" name="jenis" id="jenis">
+										<option <?php echo $donasi->jenis == "sembako"?"selected":'' ?> value="sembako">Sembako</option>
+										<option <?php echo $donasi->jenis == "tunai"?"selected":'' ?> value="tunai">Tunai</option>
+										<option <?php echo $donasi->jenis == "apd"?"selected":'' ?> value="apd">APD</option>
+										<option <?php echo $donasi->jenis == "obat"?"selected":'' ?> value="obat">Obat</option>
+										<option <?php echo $donasi->jenis == "lain-lain"?"selected":'' ?> value="lain-lain">Lainnya</option>
 									</select>
 									<div class="invalid-feedback">
-										<?php echo form_error('category_id') ?>
+										<?php echo form_error('jenis') ?>
 									</div>
 								</div>
 
 								<div class="form-group">
-									<label for="name">Name*</label>
-									<input class="form-control <?php echo form_error('name') ? 'is-invalid':'' ?>"
-									type="text" name="name" placeholder="donasiname" value="<?php echo $donasi>name ?>" />
+									<label for="kuantitas">Kuantitas*</label>
+									<input class="form-control <?php echo form_error('kuantitas') ? 'is-invalid':'' ?>"
+									type="number" name="kuantitas" min="0" placeholder="0" value="<?php echo $donasi->kuantitas?>"/>
 									<div class="invalid-feedback">
-										<?php echo form_error('name') ?>
+										<?php echo form_error('kuantitas') ?>
 									</div>
 								</div>
 
 								<div class="form-group">
-									<label for="price">Price</label>
-									<input class="form-control <?php echo form_error('price') ? 'is-invalid':'' ?>"
-									type="number" name="price" min="0" placeholder="donasiprice" value="<?php echo $donasi>price ?>" />
+									<label for="keterangan">Keterangan*</label>
+									<input class="form-control <?php echo form_error('keterangan') ? 'is-invalid':'' ?>"
+									type="text" name="keterangan" min="0" placeholder="satuan dsb" value="<?php echo $donasi->keterangan?>"/>
 									<div class="invalid-feedback">
-										<?php echo form_error('price') ?>
-									</div>
-								</div>
-
-
-								<div class="form-group">
-									<label for="name">Photo</label>
-									<input class="form-control-file <?php echo form_error('image') ? 'is-invalid':'' ?>"
-									type="file" name="image" />
-									<input type="hidden" name="old_image" value="<?php echo $donasi>image ?>" />
-									<div class="invalid-feedback">
-										<?php echo form_error('image') ?>
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label for="name">Description*</label>
-									<textarea class="form-control <?php echo form_error('description') ? 'is-invalid':'' ?>"
-									name="description" placeholder="donasidescription..."><?php echo $donasi>description ?></textarea>
-									<div class="invalid-feedback">
-										<?php echo form_error('description') ?>
+										<?php echo form_error('keterangan') ?>
 									</div>
 								</div>
 

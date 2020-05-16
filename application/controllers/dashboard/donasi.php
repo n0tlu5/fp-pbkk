@@ -34,22 +34,20 @@ class Donasi extends CI_Controller {
 
     public function edit($id = null)
     {
-		// if($this->session->user_logged->role != "admin") redirect(site_url('admin/categories'));
-        // if (!isset($id)) redirect('admin/categories');
+        if (!isset($id)) redirect('dashboard/donasi');
        
-        // $category = $this->category_model;
-        // $validation = $this->form_validation;
-        // $validation->set_rules($category->rules());
+        $donasi = $this->donasi_model;
+        $validation = $this->form_validation;
+        $validation->set_rules($donasi->rules());
 
-        // if ($validation->run()) {
-        //     $category->update();
-        //     $this->session->set_flashdata('success', 'Berhasil disimpan');
-        // }
+        if ($validation->run()) {
+            $donasi->update();
+            $this->session->set_flashdata('success', 'Berhasil disimpan');
+        }
 
-        // $data["category"] = $category->getById($id);
-		// if (!$data["category"]) show_404();
-		$data = NULL;
-        
+        $data["donasi"] = $donasi->getById($id);
+		if (!$data["donasi"]) show_404();
+		
         $this->load->view("admin/donasi/edit_form", $data);
     }
 
