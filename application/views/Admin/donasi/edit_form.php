@@ -37,8 +37,7 @@
 						</div>
 						<div class="card-body">
 
-							<form action="<?php base_url('dashboard/donasi/edit') ?>" method="post"
-								enctype="multipart/form-data" >
+							<form action="<?php base_url('dashboard/donasi/edit') ?>" method="post">
 
 								<input type="hidden" name="id" value="1" />
 
