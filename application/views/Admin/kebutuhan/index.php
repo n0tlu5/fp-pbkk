@@ -26,7 +26,7 @@
 					<!-- DataTables -->
 					<div class="card mb-3">
 						<div class="card-header">
-							<a href="<?php echo site_url('admin/products/add') ?>"><i class="fas fa-plus"></i> Add New</a>
+							<a href="<?php echo site_url('admin/kebutuhan/add') ?>"><i class="fas fa-plus"></i> Add New</a>
 						</div>
 						<div class="card-body">
 
@@ -34,34 +34,37 @@
 								<table class="table table-hover" id="dataTable" width="100%" cellspacing="0">
 									<thead>
 										<tr>
-											<th>Name</th>
-											<th>Category</th>
-											<th>Price</th>
-											<th>Description</th>
-											<th>Action</th>
+											<th>Nama</th>
+											<th>Jenis</th>
+											<th>Jumlah</th>
+											<th>Satuan</th>
+											<th>Keterangan</th>
 										</tr>
 									</thead>
 									<tbody>
+										<?php foreach ($kebutuhan as $kebutuhan): ?>
 										<tr>
 											<td width="150">
-												name
-											</td>
-											<td width="150">
-												category_name
+												<?php echo $kebutuhan->nama ?>
 											</td>
 											<td>
-												price
+												<?php echo $kebutuhan->jenis ?>
 											</td>
-											<td class="small">
-												harga
+											<td>
+												<?php echo $kebutuhan->jumlah ?>
+											</td>
+											<td>
+												<?php echo $kebutuhan->keterangan ?>
+											</td>
 											<td width="250">
-												<a href="<?php echo site_url('admin/products/edit/1') ?>"
+												<a href="<?php echo site_url('admin/kebutuhan/edit/'.$kebutuhan->kebutuhan_id) ?>"
 												class="btn btn-small"><i class="fas fa-edit"></i> Edit</a>
-												<a onclick="deleteConfirm(test)"
-												href="#!" class="btn btn-small text-danger"><i class="fas fa-trash"></i> Hapus</a>
+												<a onclick="deleteConfirm('<?php echo site_url('admin/kebutuhan/delete/'.$kebutuhan->kebutuhan_id) ?>')"
+												 href="#!" class="btn btn-small text-danger"><i class="fas fa-trash"></i> Hapus</a>
 											</td>
 										</tr>
-
+										<?php endforeach; ?>
+										
 									</tbody>
 								</table>
 							</div>
