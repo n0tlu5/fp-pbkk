@@ -34,33 +34,48 @@
 								<table class="table table-hover" id="dataTable" width="100%" cellspacing="0">
 									<thead>
 										<tr>
-											<th>Name</th>
-											<th>Category</th>
-											<th>Price</th>
-											<th>Description</th>
-											<th>Action</th>
+											<th>Id</th>
+											<th>Donatur</th>
+											<th>No HP</th>
+											<th>Email</th>
+											<th>Jenis</th>
+											<th>Jumlah</th>
+											<th>Keterangan</th>
+											<th>Aksi</th>
 										</tr>
 									</thead>
 									<tbody>
+										<?php foreach ($donasi as $item): ?>
 										<tr>
 											<td width="150">
-												name
+												<?php echo $item->donasi_id ?>
 											</td>
 											<td width="150">
-												category_name
+												<?php echo $item->nama ?>
 											</td>
 											<td>
-												price
+												<?php echo $item->no_hp ?>
 											</td>
-											<td class="small">
-												harga
+											<td>
+												<?php echo $item->email ?>
+											</td>
+											<td>
+												<?php echo $item->jenis ?>
+											</td>
+											<td>
+												<?php echo $item->kuantitas ?>
+											</td>
+											<td>
+												<?php echo $item->keterangan ?>
+											</td>
 											<td width="250">
-												<a href="<?php echo site_url('dashboard/donasi/edit/1') ?>"
+												<a href="<?php echo site_url('dashboard/donasi/edit/').$item->donasi_id ?>"
 												class="btn btn-small"><i class="fas fa-edit"></i> Edit</a>
-												<a onclick="deleteConfirm(test)"
+												<a onclick="deleteConfirm(<?php echo $item->donasi_id ?>)"
 												href="#!" class="btn btn-small text-danger"><i class="fas fa-trash"></i> Hapus</a>
 											</td>
 										</tr>
+										<?php endforeach; ?>
 
 									</tbody>
 								</table>
