@@ -20,7 +20,7 @@
 				<div class="container-fluid">
 					<!-- Page Heading -->
 					<div class="d-sm-flex align-items-center justify-content-between mb-4">
-						<h1 class="h3 mb-0 text-gray-800">Product List</h1>
+						<h1 class="h3 mb-0 text-gray-800">Kebutuhan List</h1>
 					</div>
 
 					<!-- DataTables -->
@@ -105,7 +105,7 @@
 		}
 
 		function deleteAction(id){
-        	window.location.href = `/admin/products/delete/${id}`
+        	window.location.href = `/admin/kebutuhan/delete/${id}`
 		}
 	</script>
 	
