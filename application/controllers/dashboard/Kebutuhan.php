@@ -15,11 +15,11 @@ class Kebutuhan extends CI_Controller {
     public function index() 
 	{
         $data["kebutuhan"] = $this->kebutuhan_model->getAll();
-        $this->load->view("admin/kebutuhan/index", $data);
+		$this->load->view('admin/kebutuhan/index', $data);
     }
-    
-    public function add()
-    {
+
+    public function add() 
+	{
         $kebutuhan = $this->kebutuhan_model;
         $validation = $this->form_validation;
         $validation->set_rules($kebutuhan->rules());
@@ -34,7 +34,7 @@ class Kebutuhan extends CI_Controller {
 
     public function edit($id = null)
     {
-        if (!isset($id)) redirect('admin/kebutuhan');
+        if (!isset($id)) redirect('dashboard/kebutuhan');
        
         $kebutuhan = $this->kebutuhan_model;
         $validation = $this->form_validation;
@@ -46,18 +46,19 @@ class Kebutuhan extends CI_Controller {
         }
 
         $data["kebutuhan"] = $kebutuhan->getById($id);
-        if (!$data["kebutuhan"]) show_404();
-        
+		if (!$data["kebutuhan"]) show_404();
+		
         $this->load->view("admin/kebutuhan/edit_form", $data);
     }
 
     public function delete($id=null)
     {
+		if($this->session->user_logged->role != "admin") redirect(site_url('dashboard/kebutuhan'));
         if (!isset($id)) show_404();
         
-        if ($this->product_model->delete($id)) {
-            redirect(site_url('admin/kebutuhan'));
+        if ($this->category_model->delete($id)) {
+            redirect(site_url('dashboard/kebutuhan'));
         }
     }
-
+    
 }
