@@ -53,11 +53,11 @@ class Donasi extends CI_Controller {
 
     public function delete($id=null)
     {
-		if($this->session->user_logged->role != "admin") redirect(site_url('admin/categories'));
+		// if($this->session->user_logged->role != "admin") redirect(site_url('admin/categories'));
         if (!isset($id)) show_404();
         
-        if ($this->category_model->delete($id)) {
-            redirect(site_url('admin/categories'));
+        if ($this->donasi_model->delete($id)) {
+            redirect(site_url('dashboard/donasi'));
         }
     }
     

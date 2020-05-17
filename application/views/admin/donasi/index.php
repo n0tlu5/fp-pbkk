@@ -71,7 +71,7 @@
 											<td width="250">
 												<a href="<?php echo site_url('dashboard/donasi/edit/').$item->donasi_id ?>"
 												class="btn btn-small"><i class="fas fa-edit"></i> Edit</a>
-												<a onclick="deleteConfirm(<?php echo $item->donasi_id ?>)"
+												<a onclick="deleteConfirm('<?php echo $item->donasi_id ?>')"
 												href="#!" class="btn btn-small text-danger"><i class="fas fa-trash"></i> Hapus</a>
 											</td>
 										</tr>
@@ -117,7 +117,7 @@
 		}
 
 		function deleteAction(id){
-        	window.location.href = `/admin/donasi/delete/${id}`
+        	window.location.href = `/dashboard/donasi/delete/${id}`
 		}
 	</script>
 	
