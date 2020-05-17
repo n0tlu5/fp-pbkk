@@ -53,10 +53,10 @@ class Kebutuhan extends CI_Controller {
 
     public function delete($id=null)
     {
-		if($this->session->user_logged->role != "admin") redirect(site_url('dashboard/kebutuhan'));
+		// if($this->session->user_logged->role != "admin") redirect(site_url('dashboard/kebutuhan'));
         if (!isset($id)) show_404();
         
-        if ($this->category_model->delete($id)) {
+        if ($this->kebutuhan_model->delete($id)) {
             redirect(site_url('dashboard/kebutuhan'));
         }
     }
