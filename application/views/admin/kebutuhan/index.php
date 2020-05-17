@@ -67,8 +67,8 @@
 											<td width="250">
 												<a href="<?php echo site_url('dashboard/kebutuhan/edit/').$butuh->kebutuhan_id ?>"
 												class="btn btn-small"><i class="fas fa-edit"></i> Edit</a>
-												<a onclick="deleteConfirm('<?php echo site_url('dashboard/kebutuhan/delete/'.$butuh->kebutuhan_id) ?>')"
-											 href="#!" class="btn btn-small text-d	anger"><i class="fas fa-trash"></i> Hapus</a>
+												<a onclick="deleteConfirm('<?php echo $butuh->kebutuhan_id ?>')"
+												href="#!" class="btn btn-small text-danger"><i class="fas fa-trash"></i> Hapus</a>
 											</td>
 										</tr>
 										<?php endforeach; ?>
