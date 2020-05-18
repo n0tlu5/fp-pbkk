@@ -52,7 +52,7 @@ class Auth extends CI_Controller
 						'email' => $user['email'],
 						'role_id' => $user['role_id']
 					];
-					$this->session->set_userdata($data);
+					$this->session->set_userdata(["user_logged" => $data]);
 					redirect('dashboard/admin');
 				} else {
 					$this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">

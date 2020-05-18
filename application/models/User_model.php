@@ -35,7 +35,7 @@ class User_model extends CI_Model
 
     public function isNotLogin()
     {
-        return $this->session->userdata('user_logged') === null;
+        return $this->session->user_logged === null;
     }
 
     private function _updateLastLogin($user_id)
