@@ -8,8 +8,8 @@ class Kebutuhan extends CI_Controller {
         parent::__construct();
         $this->load->model("kebutuhan_model");
         $this->load->library('form_validation');
-        // $this->load->model("user_model");
-		// if($this->user_model->isNotLogin()) redirect(site_url('admin/login'));
+        $this->load->model("user_model");
+		if($this->user_model->isNotLogin()) redirect(site_url('auth/login'));
     }
 
     public function index() 
@@ -20,6 +20,7 @@ class Kebutuhan extends CI_Controller {
 
     public function add() 
 	{
+		if($this->session->user_logged->role_id != "1") redirect(site_url('dashboard/kebutuhan'));
         $kebutuhan = $this->kebutuhan_model;
         $validation = $this->form_validation;
         $validation->set_rules($kebutuhan->rules());
@@ -34,6 +35,7 @@ class Kebutuhan extends CI_Controller {
 
     public function edit($id = null)
     {
+		if($this->session->user_logged->role_id != "1") redirect(site_url('dashboard/kebutuhan'));
         if (!isset($id)) redirect('dashboard/kebutuhan');
        
         $kebutuhan = $this->kebutuhan_model;
@@ -53,7 +55,7 @@ class Kebutuhan extends CI_Controller {
 
     public function delete($id=null)
     {
-		// if($this->session->user_logged->role != "admin") redirect(site_url('dashboard/kebutuhan'));
+		if($this->session->user_logged->role_id != "1") redirect(site_url('dashboard/kebutuhan'));
         if (!isset($id)) show_404();
         
         if ($this->kebutuhan_model->delete($id)) {
