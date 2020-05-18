@@ -47,7 +47,7 @@ class Auth extends CI_Controller
 
 		if ($user) {
 			if ($user['is_active'] == 1) {
-				if (password_verify($password, $user['password'])) {
+				if (password_verify($password, $user['passward'])) {
 					$data = [
 						'email' => $user['email'],
 						'role_id' => $user['role_id']
@@ -98,10 +98,10 @@ class Auth extends CI_Controller
 			$this->load->view('templates/auth_footer');
 		} else {
 			$data = [
-				'username' => htmlspecialchars($this->input->post('username', true)),
+				'name' => htmlspecialchars($this->input->post('username', true)),
 				'email' => htmlspecialchars($this->input->post('email', true)),
 				'image' => 'default.jpg',
-				'password' => password_hash($this->input->post('password1'), PASSWORD_DEFAULT),
+				'passward' => password_hash($this->input->post('password1'), PASSWORD_DEFAULT),
 				'role_id' => 1,
 				'is_active' => 1,
 				'date_created' => time()
