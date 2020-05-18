@@ -26,8 +26,10 @@
 					<!-- DataTables -->
 					<div class="card mb-3">
 						<div class="card-header">
+						<?php if($this->session->user_logged["role_id"] == "1"){ ?>
 							<a href="<?php echo site_url('dashboard/donasi/add') ?>"><i class="fas fa-plus"></i> Add New</a>
 						</div>
+						<?php } ?>
 						<div class="card-body">
 
 							<div class="table-responsive">
@@ -41,7 +43,9 @@
 											<th>Jenis</th>
 											<th>Jumlah</th>
 											<th>Keterangan</th>
+						<?php if($this->session->user_logged["role_id"] == "1"){ ?>
 											<th>Aksi</th>
+						<?php } ?>
 										</tr>
 									</thead>
 									<tbody>
@@ -68,12 +72,14 @@
 											<td>
 												<?php echo $item->keterangan ?>
 											</td>
+						<?php if($this->session->user_logged["role_id"] == "1"){ ?>
 											<td width="250">
 												<a href="<?php echo site_url('dashboard/donasi/edit/').$item->donasi_id ?>"
 												class="btn btn-small"><i class="fas fa-edit"></i> Edit</a>
 												<a onclick="deleteConfirm('<?php echo $item->donasi_id ?>')"
 												href="#!" class="btn btn-small text-danger"><i class="fas fa-trash"></i> Hapus</a>
 											</td>
+						<?php } ?>
 										</tr>
 										<?php endforeach; ?>
 
