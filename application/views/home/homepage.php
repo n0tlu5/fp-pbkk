@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Marketplace</title>
+    <title>S I P</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -65,9 +65,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <nav class="s-header__nav-wrap">
                 <ul class="s-header__nav">
                     <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
-                    <li><a class="smoothscroll" href="#about" title="About">About</a></li>
-                    <li><a class="smoothscroll" href="#services" title="Services">Services</a></li>
-                    <li><a class="smoothscroll" href="#portfolio" title="Works">Works</a></li>
+                    <li><a class="smoothscroll" href="#about" title="About">Tentang</a></li>
+                    <li><a class="smoothscroll" href="#services" title="Services">Donasi</a></li>
+                    <li><a class="smoothscroll" href="#portfolio" title="Works">Market</a></li>
                     <li><a class="smoothscroll" href="/login.php" title="Login">Login</a></li>
                 </ul>
             </nav> <!-- end s-header__nav-wrap -->
@@ -99,9 +99,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="s-hero__content-about">
 
                     <p>
-                    We are Flare. We love <br>
-                    building great brands <br>
-                    & digital experiences.
+                    Kami adalah Pahlawan COVID-19 <br>
+                    Kita bergerak membantu orang-orang <br>
+                    dengan menyediakan apa yang mereka butuhkan.
                     </p>
     
                     <footer>
@@ -143,21 +143,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="column large-12">
 
                 <div class="section-title" data-num="01" data-aos="fade-up">
-                    <h3 class="h6">Who We Are</h3>
+                    <h3 class="h6">Siapa kita?</h3>
                 </div>
 
             </div>
 
             <div class="column large-6 w-900-stack s-about__intro-text">
                 <h1 class="display-1" data-aos="fade-up">
-                    Flare is a branding agency based in somewhere. We design thoughtful digital experiences and beautiful brand aesthetics.
+                SIP atau Sistem Informasi Pandemi adalah penyedia dan penggalang donasi untuk membantu orang dalam melawan Wabah Covid-19. Kami membantu orang untuk memenuhi kebutuhan mereka dan juga memberikan harga yang terbaik.
                 </h1>
 
                 <p class="lead" data-aos="fade-up">
-                    Non amet venenatis dolor id pellentesque mattis erat. Fermentum nunc, 
-                    tincidunt sit elit amet scelerisque. Ac quisque quis eu nibh rutrum 
-                    risus tellus egestas neque. Vestibulum ante ipsum primis in faucibus 
-                    orci luctus et. 
+                    Kami menyediakan berbagai kebutuhan semasa pandemi ini, 
+                    diantaranya APD dan Sembako. Kami juga melakukan penggalangan dana melalui aplikasi ini. 
+                    Mari bergerak bersama, melawan pandemi bersama, agar kita bisa kembali hidup seperti sediakala.
                 </p>
             </div>
 
@@ -168,39 +167,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="row block-large-1-2 block-tab-full s-about__process item-list">
             <div class="column item item-process" data-aos="fade-up">
-                <h3 class="item-title">Define</h3>
+                <h3 class="item-title">APD</h3>
                 <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                Kami menyediakan berbagai macam APD dengan harga yang terjangkau.
+                Bekerja sama dengan produk lokal sekaligus membantu ekonomi nasional.
+                Agar terjalin sinergi yang saling mencukupi.
                 </p>
             </div>
             <div class="column item item-process" data-aos="fade-up">
-                <h3 class="item-title">Design</h3>
+                <h3 class="item-title">Sembako</h3>
                 <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                Sembako atau sembilan bahan pokok kami sediakan dengan harga yang terjangkau.
+                Bekerja sama dengan produk lokal sekaligus membantu ekonomi nasional.
+                Agar terjalin sinergi yang saling mencukupi.
                 </p>
             </div>
             <div class="column item item-process" data-aos="fade-up">
-                <h3 class="item-title">Build</h3>
+                <h3 class="item-title">Donasi</h3>
                 <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
-            </div>
-            <div class="column item item-process" data-aos="fade-up">
-                <h3 class="item-title">Launch</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                Penggalangan dana ini akan kami alokasikan kepada mereka yang ter-PHK.
+                Karena di masa seperti ini, banyak sekali karyawan, buruh, dan pekerja lain yang terkena imbasnya.
+                Sehingga mereka di-PHK. Lalu kami hadir untuk membantu mereka.
                 </p>
             </div>
         </div>
@@ -215,21 +202,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="row">
             <div class="column large-12">
                 <div class="section-title" data-num="02" data-aos="fade-up">
-                    <h3 class="h6">Our Expertise</h3>
+                    <h3 class="h6">Donasi</h3>
                 </div>
             </div>
             <div class="column large-6 w-900-stack">
                 <h1 class="display-1" data-aos="fade-up">
-                    Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                    Quis dolores totam voluptatibus. 
+                    AYO Donasi. <br>
+                    AYO Donasi. <br>
+                    AYO Donasi. <br>
                 </h1>
             </div>
             <div class="column large-6 w-900-stack">
                 <p class="lead" data-aos="fade-up">
-                Velit deleniti harum sit beatae sint repellendus expedita. Omnis possimus 
-                sed rerum tenetur ea ab aut minima magnam. Deserunt sit cupiditate 
-                similique eveniet earum. Consectetur dolores maxime quisquam voluptate magni.
-                Ut ex unde rem quod ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                Mari sisihkan sedikit hartamu.<br>
+                Mari kita bahu membahu.<br>
+                Mari membantu sesamamu.<br>
+                Mari melawan bersamamu.<br>
+                Mari demi Indonesiamu. <br>
+                
                 </p>
             </div>
         </div>
@@ -237,62 +227,35 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="row block-large-1-2 block-tab-full s-services__services item-list">
             <div class="column item item-service" data-aos="fade-up">
                 <span class="service-icon service-icon--product-design"></span>
-                <h3 class="item-title">Product Design</h3>
+                <h3 class="item-title">Jangan pikir pikir</h3>
                 <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                Jika kita semua bisa saling membantu, percayalah pandemi ini akan segera berakhi
                 </p>
             </div>
             <div class="column item item-service" data-aos="fade-up">
                 <span class="service-icon service-icon--branding"></span>
-                <h3 class="item-title">Branding</h3>
+                <h3 class="item-title">Tepat Sasaran</h3>
                 <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                Kami memegang amanah, kami akan memberikan donasi pada orang yang tepat. 
+                Kepada mereka yang membutuhkan demi menyambung hidup.
                 </p>
             </div>
             <div class="column item item-service" data-aos="fade-up">
                 <span class="service-icon service-icon--frontend"></span>
-                <h3 class="item-title">Frontend Development</h3>
+                <h3 class="item-title">Warnai Hari Mereka</h3>
                 <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                Kamu adalah pelangi di hari - hari mereka. 
+                Pembawa kebahagiaan pada saat mereka sedang tertekan oleh pandemi ini.
                 </p>
             </div>
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--research"></span>
-                <h3 class="item-title">UX Research</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
-            </div>
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--illustration"></span>
-                <h3 class="item-title">Illustration</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
-            </div>
+
+            
             <div class="column item item-service" data-aos="fade-up">
                 <span class="service-icon service-icon--ecommerce"></span>
-                <h3 class="item-title">E-Commerce</h3>
+                <h3 class="item-title">Jadilah Pioner</h3>
                 <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                Jadilah perintis, menjadi orang yang pertama dan ajak yang lain untuk berdonasi.
+                Demi kebaikan kita semua.
                 </p>
             </div>
         </div>
@@ -304,13 +267,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="row s-porfolio__top">
             <div class="column large-6 w-900-stack">
                 <div class="section-title" data-num="03" data-aos="fade-up">
-                    <h3 class="h6">Recent Works</h3>
+                    <h3 class="h6">MARKET</h3>
                 </div>
             </div>
             <div class="column large-6 w-900-stack">
                 <h1 class="display-1" data-aos="fade-up">
-                    Here are some of our projects we done lately. Feel
-                    free to check them out.
+                    Ini adalah beberapa sampling tentang apa yang kami jual, 
+                    tentunya dengan kualitas baik dan harga terjangkau
                 </h1>
             </div>
         </div> <!-- end s-portfolio__top-->
@@ -436,7 +399,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- clients
     ================================================== -->
     <div id="clients" class="section s-clients">
-
+    <!--
         <div class="row narrower s-clients__top h-text-center">
             <div class="column">
                 <h1 class="display-1" data-aos="fade-up">
@@ -444,7 +407,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 some of the largest and most iconic brands
                 </h1>
             </div>
-        </div> <!-- s-clients__top -->
+        </div> <!-- s-clients__top 
 
         <div class="row clients-outer">
             <div class="column">
@@ -459,11 +422,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <a href="#0" title="" class="clients__slide"><img src="assets/images/icons/clients/steam.svg" /></a>
                     <a href="#0" title="" class="clients__slide"><img src="assets/images/icons/clients/spotify.svg" /></a>
                      
-                </div> <!-- end clients -->
-            </div> <!-- end column -->
+                </div> <!-- end clients 
+            </div> <!-- end column 
         </div> <!-- end clients-outer -->
 
-        <div class="row testimonials collapse">
+        <!-- <div class="row testimonials collapse">
 
             <div class="column large-12">
 
@@ -483,8 +446,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </cite>
                         </div>
                     </div> <!-- end testimonials__slide -->
-    
-                    <div class="testimonial-slider__slide">
+     
+                    <!-- <div class="testimonial-slider__slide">
                         <p>
                         Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
                         Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
@@ -499,7 +462,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div> <!-- end testimonials__slide -->
     
-                    <div class="testimonial-slider__slide">
+                    <!-- <div class="testimonial-slider__slide">
                         <p>
                         Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
                         Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
@@ -512,9 +475,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <span>CEO, Microsoft</span>
                             </cite>
                         </div>
-                    </div> <!-- end testimonials__slide -->
+                    </div> end testimonials__slide -->
     
-                    <div class="testimonial-slider__slide">
+                    <!-- <div class="testimonial-slider__slide">
                         <p>
                         Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel dui. In ac felis 
                         quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit. 
@@ -527,14 +490,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <span>CEO, Amazon</span>
                             </cite>
                         </div>
-                    </div> <!-- end testimonials__slide -->
+                    </div> 
+                    <!-- end testimonials__slide -->
 
-                </div> <!-- end testimonial slider -->
+                <!-- </div> <!-- end testimonial slider -->
                 
-            </div> <!-- end column -->
+            <!-- </div> <!-- end column -->
 
-        </div> <!-- end row -->
-
+        <!-- </div>  -->
+        
 
     </div> <!-- end s-clients -->
 
@@ -543,7 +507,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     ================================================== -->
     <section class="s-contact">
 
-        <div class="row narrower s-contact__top h-text-center">
+        <!-- <div class="row narrower s-contact__top h-text-center">
             <div class="column">
                 <h3 class="h6">Get In Touch</h3>
                 <h1 class="display-1">
@@ -554,13 +518,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </div> <!-- s-footer__top -->
 
-        <div class="row h-text-center">
+        <!-- <div class="row h-text-center">
             <div class="column">
                 <p class="s-contact__email">
                     <a href="mailto:#0">hello@flare.com</a>
                 </p>
             </div>
-        </div>
+        </div> -->
 
     </section>  <!-- end s-contact -->
 
@@ -573,17 +537,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="column large-8 medium-12">
                 <div class="row">
                     <div class="column large-7 tab-12 s-footer__block">
-                        <h4 class="h6">Where to Find Us</h4>
+                        <h4 class="h6">Temukan kami</h4>
         
                         <p>
-                        1600 Amphitheatre Parkway <br>
-                        Mountain View, California <br>
-                        94043  US <br>
-                        <a href="tel:197-543-2345">+197 543 2345</a>
+                        Institut Teknologi Sepuluh Nopember <br>
+                        Surabaya, Indonesia <br>
+                        
+                        <!-- <a href="tel:08108108111">+628108108111</a> -->
                         </p>
                     </div>
         
-                    <div class="column large-5 tab-12 s-footer__block">
+                    <!-- <div class="column large-5 tab-12 s-footer__block">
                         <h4 class="h6">Follow Us</h4 class="h6">
         
                         <ul class="s-footer__list">
@@ -592,7 +556,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <li><a href="#0">Instagram</a></li>
                             <li><a href="#0">Dribbble</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
