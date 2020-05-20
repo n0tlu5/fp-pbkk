@@ -68,7 +68,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
                     <li><a class="smoothscroll" href="#about" title="About">Tentang</a></li>
                     <li><a class="smoothscroll" href="#services" title="Services">Donasi</a></li>
-                    <li><a class="smoothscroll" href="#portfolio" title="Works">Market</a></li>
+                    <li><a class="smoothscroll" href="#portfolio" title="Works">Tips</a></li>
                     <li><a href="<?php echo base_url("/auth/login") ?>" title="Login">Login</a></li>
                 </ul>
             </nav> <!-- end s-header__nav-wrap -->
@@ -270,13 +270,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="row s-porfolio__top">
             <div class="column large-6 w-900-stack">
                 <div class="section-title" data-num="03" data-aos="fade-up">
-                    <h3 class="h6">MARKET</h3>
+                    <h3 class="h6">TIPS</h3>
                 </div>
             </div>
             <div class="column large-6 w-900-stack">
                 <h1 class="display-1" data-aos="fade-up">
-                    Ini adalah beberapa sampling tentang apa yang kami jual,
-                    tentunya dengan kualitas baik dan harga terjangkau
+                    Ini adalah tips dari kami dalam menghadapi Pandemi COVID-19
                 </h1>
             </div>
         </div> <!-- end s-portfolio__top-->
@@ -294,7 +293,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div class="folio-item__cat">Kesehatan</div>
                         <h4 class="folio-item__title">Alat Pelindung Diri</h4>
                     </div>
-                    <a href="#" title="Project Link" class="folio-item__project-link">Best Price</a>
+                    <a href="#" title="Project Link" class="folio-item__project-link">Gunakan</a>
                     <div class="folio-item__caption">
                         <p>Kualitas terbaik</p>
                     </div>
@@ -311,7 +310,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div class="folio-item__cat">Kesehatan</div>
                         <h4 class="folio-item__title">Masker</h4>
                     </div>
-                    <a href="#" title="Project Link" class="folio-item__project-link">Best Price</a>
+                    <a href="#" title="Project Link" class="folio-item__project-link">Gunakan</a>
                     <div class="folio-item__caption">
                         <p>Kualitas terbaik.</p>
                     </div>
@@ -328,7 +327,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div class="folio-item__cat">Kebutuhan</div>
                         <h4 class="folio-item__title">Sembako</h4>
                     </div>
-                    <a href="#" title="Project Link" class="folio-item__project-link">Best Price</a>
+                    <a href="#" title="Project Link" class="folio-item__project-link">Konsumsi</a>
                     <div class="folio-item__caption">
                         <p>Kualitas terbaik.</p>
                     </div>
@@ -345,7 +344,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div class="folio-item__cat">Kebutuhan</div>
                         <h4 class="folio-item__title">Buah-buahan dan Vitamin</h4>
                     </div>
-                    <a href="#" title="Project Link" class="folio-item__project-link">Best Price</a>
+                    <a href="#" title="Project Link" class="folio-item__project-link">Konsumsi</a>
                     <div class="folio-item__caption">
                         <p>Kualitas terbaik.</p>
                     </div>
