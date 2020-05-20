@@ -56,8 +56,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <header class="s-header">
 
         <div class="s-header__logo">
-            <a href="index.html">
-                <img src="assets/images/logo.svg" alt="Homepage">
+            <a href="home">
+                <img src="assets/images/logosip1.png" alt="Homepage">
             </a>
         </div>
 
