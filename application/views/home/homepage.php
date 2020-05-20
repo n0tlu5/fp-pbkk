@@ -1,9 +1,10 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+
 <head>
 
     <!--- basic page needs
@@ -61,7 +62,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
 
         <div class="s-header__content">
-    
+
             <nav class="s-header__nav-wrap">
                 <ul class="s-header__nav">
                     <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
@@ -73,7 +74,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </nav> <!-- end s-header__nav-wrap -->
 
             <a href="mailto:#0" class="btn btn--primary btn--small">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z" /></svg>
                 Get In Touch
             </a>
 
@@ -99,11 +101,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="s-hero__content-about">
 
                     <p>
-                    Kami adalah Pahlawan COVID-19 <br>
-                    Kita bergerak membantu orang-orang <br>
-                    dengan menyediakan apa yang mereka butuhkan.
+                        Kami adalah Pahlawan COVID-19 <br>
+                        Kita bergerak membantu orang-orang <br>
+                        dengan menyediakan apa yang mereka butuhkan.
                     </p>
-    
+
                     <footer>
                         <div class="s-hero__content-social">
                             <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
@@ -119,7 +121,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="s-hero__video">
             <a class="s-hero__video-link" href="https://player.vimeo.com/video/117310401?color=01aef0&amp;title=0&amp;byline=0&amp;portrait=0" data-lity="">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M21 12l-18 12v-24z" /></svg>
                 <span class="s-hero__video-text">Play Video</span>
             </a>
         </div>
@@ -150,12 +153,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="column large-6 w-900-stack s-about__intro-text">
                 <h1 class="display-1" data-aos="fade-up">
-                SIP atau Sistem Informasi Pandemi adalah penyedia dan penggalang donasi untuk membantu orang dalam melawan Wabah Covid-19. Kami membantu orang untuk memenuhi kebutuhan mereka dan juga memberikan harga yang terbaik.
+                    SIP atau Sistem Informasi Pandemi adalah penyedia dan penggalang donasi untuk membantu orang dalam melawan Wabah Covid-19. Kami membantu orang untuk memenuhi kebutuhan mereka dan juga memberikan harga yang terbaik.
                 </h1>
 
                 <p class="lead" data-aos="fade-up">
-                    Kami menyediakan berbagai kebutuhan semasa pandemi ini, 
-                    diantaranya APD dan Sembako. Kami juga melakukan penggalangan dana melalui aplikasi ini. 
+                    Kami menyediakan berbagai kebutuhan semasa pandemi ini,
+                    diantaranya APD dan Sembako. Kami juga melakukan penggalangan dana melalui aplikasi ini.
                     Mari bergerak bersama, melawan pandemi bersama, agar kita bisa kembali hidup seperti sediakala.
                 </p>
             </div>
@@ -169,25 +172,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="column item item-process" data-aos="fade-up">
                 <h3 class="item-title">APD</h3>
                 <p>
-                Kami menyediakan berbagai macam APD dengan harga yang terjangkau.
-                Bekerja sama dengan produk lokal sekaligus membantu ekonomi nasional.
-                Agar terjalin sinergi yang saling mencukupi.
+                    Kami menyediakan berbagai macam APD dengan harga yang terjangkau.
+                    Bekerja sama dengan produk lokal sekaligus membantu ekonomi nasional.
+                    Agar terjalin sinergi yang saling mencukupi.
                 </p>
             </div>
             <div class="column item item-process" data-aos="fade-up">
                 <h3 class="item-title">Sembako</h3>
                 <p>
-                Sembako atau sembilan bahan pokok kami sediakan dengan harga yang terjangkau.
-                Bekerja sama dengan produk lokal sekaligus membantu ekonomi nasional.
-                Agar terjalin sinergi yang saling mencukupi.
+                    Sembako atau sembilan bahan pokok kami sediakan dengan harga yang terjangkau.
+                    Bekerja sama dengan produk lokal sekaligus membantu ekonomi nasional.
+                    Agar terjalin sinergi yang saling mencukupi.
                 </p>
             </div>
             <div class="column item item-process" data-aos="fade-up">
                 <h3 class="item-title">Donasi</h3>
                 <p>
-                Penggalangan dana ini akan kami alokasikan kepada mereka yang ter-PHK.
-                Karena di masa seperti ini, banyak sekali karyawan, buruh, dan pekerja lain yang terkena imbasnya.
-                Sehingga mereka di-PHK. Lalu kami hadir untuk membantu mereka.
+                    Penggalangan dana ini akan kami alokasikan kepada mereka yang ter-PHK.
+                    Karena di masa seperti ini, banyak sekali karyawan, buruh, dan pekerja lain yang terkena imbasnya.
+                    Sehingga mereka di-PHK. Lalu kami hadir untuk membantu mereka.
                 </p>
             </div>
         </div>
@@ -214,12 +217,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="column large-6 w-900-stack">
                 <p class="lead" data-aos="fade-up">
-                Mari sisihkan sedikit hartamu.<br>
-                Mari kita bahu membahu.<br>
-                Mari membantu sesamamu.<br>
-                Mari melawan bersamamu.<br>
-                Mari demi Indonesiamu. <br>
-                
+                    Mari sisihkan sedikit hartamu.<br>
+                    Mari kita bahu membahu.<br>
+                    Mari membantu sesamamu.<br>
+                    Mari melawan bersamamu.<br>
+                    Mari demi Indonesiamu. <br>
+
                 </p>
             </div>
         </div>
@@ -229,33 +232,33 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <span class="service-icon service-icon--product-design"></span>
                 <h3 class="item-title">Jangan pikir pikir</h3>
                 <p>
-                Jika kita semua bisa saling membantu, percayalah pandemi ini akan segera berakhi
+                    Jika kita semua bisa saling membantu, percayalah pandemi ini akan segera berakhir
                 </p>
             </div>
             <div class="column item item-service" data-aos="fade-up">
                 <span class="service-icon service-icon--branding"></span>
                 <h3 class="item-title">Tepat Sasaran</h3>
                 <p>
-                Kami memegang amanah, kami akan memberikan donasi pada orang yang tepat. 
-                Kepada mereka yang membutuhkan demi menyambung hidup.
+                    Kami memegang amanah, kami akan memberikan donasi pada orang yang tepat.
+                    Kepada mereka yang membutuhkan demi menyambung hidup.
                 </p>
             </div>
             <div class="column item item-service" data-aos="fade-up">
                 <span class="service-icon service-icon--frontend"></span>
                 <h3 class="item-title">Warnai Hari Mereka</h3>
                 <p>
-                Kamu adalah pelangi di hari - hari mereka. 
-                Pembawa kebahagiaan pada saat mereka sedang tertekan oleh pandemi ini.
+                    Kamu adalah pelangi di hari - hari mereka.
+                    Pembawa kebahagiaan pada saat mereka sedang tertekan oleh pandemi ini.
                 </p>
             </div>
 
-            
+
             <div class="column item item-service" data-aos="fade-up">
                 <span class="service-icon service-icon--ecommerce"></span>
                 <h3 class="item-title">Jadilah Pioner</h3>
                 <p>
-                Jadilah perintis, menjadi orang yang pertama dan ajak yang lain untuk berdonasi.
-                Demi kebaikan kita semua.
+                    Jadilah perintis, menjadi orang yang pertama dan ajak yang lain untuk berdonasi.
+                    Demi kebaikan kita semua.
                 </p>
             </div>
         </div>
@@ -272,7 +275,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="column large-6 w-900-stack">
                 <h1 class="display-1" data-aos="fade-up">
-                    Ini adalah beberapa sampling tentang apa yang kami jual, 
+                    Ini adalah beberapa sampling tentang apa yang kami jual,
                     tentunya dengan kualitas baik dan harga terjangkau
                 </h1>
             </div>
@@ -284,8 +287,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="folio-item">
                     <div class="folio-item__thumb">
                         <a class="folio-item__thumb-link" href="assets/images/portfolio/gallery/g-red-wheel.jpg" title="The Red Wheel" data-size="1050x700">
-                            <img src="assets/images/portfolio/red-wheel.jpg" 
-                                 srcset="assets/images/portfolio/red-wheel.jpg 1x, assets/images/portfolio/red-wheel@2x.jpg 2x" alt="">
+                            <img src="assets/images/portfolio/red-wheel.jpg" srcset="assets/images/portfolio/red-wheel.jpg 1x, assets/images/portfolio/red-wheel@2x.jpg 2x" alt="">
                         </a>
                     </div>
                     <div class="folio-item__info">
@@ -302,8 +304,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="folio-item">
                     <div class="folio-item__thumb">
                         <a class="folio-item__thumb-link" href="assets/images/portfolio/gallery/g-music-life.jpg" title="Music Life" data-size="1050x700">
-                            <img src="assets/images/portfolio/music-life.jpg" 
-                                 srcset="assets/images/portfolio/music-life.jpg 1x, assets/images/portfolio/music-life@2x.jpg 2x" alt="">
+                            <img src="assets/images/portfolio/music-life.jpg" srcset="assets/images/portfolio/music-life.jpg 1x, assets/images/portfolio/music-life@2x.jpg 2x" alt="">
                         </a>
                     </div>
                     <div class="folio-item__info">
@@ -320,8 +321,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="folio-item">
                     <div class="folio-item__thumb">
                         <a class="folio-item__thumb-link" href="assets/images/portfolio/gallery/g-oi-logo.jpg" Title="OI Logo" data-size="1050x700">
-                            <img src="assets/images/portfolio/oi-logo.jpg.jpg" 
-                                 srcset="assets/images/portfolio/oi-logo.jpg 1x, assets/images/portfolio/oi-logo@2x.jpg 2x" alt="">
+                            <img src="assets/images/portfolio/oi-logo.jpg.jpg" srcset="assets/images/portfolio/oi-logo.jpg 1x, assets/images/portfolio/oi-logo@2x.jpg 2x" alt="">
                         </a>
                     </div>
                     <div class="folio-item__info">
@@ -338,8 +338,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="folio-item">
                     <div class="folio-item__thumb">
                         <a class="folio-item__thumb-link" href="assets/images/portfolio/gallery/g-corrugated-sheets.jpg" title="Corrugated Sheets" data-size="1050x700">
-                            <img src="assets/images/portfolio/corrugated-sheets.jpg" 
-                                 srcset="assets/images/portfolio/corrugated-sheets.jpg 1x, assets/images/portfolio/corrugated-sheets@2x.jpg 2x" alt="">
+                            <img src="assets/images/portfolio/corrugated-sheets.jpg" srcset="assets/images/portfolio/corrugated-sheets.jpg 1x, assets/images/portfolio/corrugated-sheets@2x.jpg 2x" alt="">
                         </a>
                     </div>
                     <div class="folio-item__info">
@@ -352,7 +351,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
             </div> <!-- end column -->
-            
+
 
         </div> <!-- folio-list -->
 
@@ -362,7 +361,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- clients
     ================================================== -->
     <div id="clients" class="section s-clients">
-    <!--
+        <!--
         <div class="row narrower s-clients__top h-text-center">
             <div class="column">
                 <h1 class="display-1" data-aos="fade-up">
@@ -409,8 +408,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </cite>
                         </div>
                     </div> <!-- end testimonials__slide -->
-     
-                    <!-- <div class="testimonial-slider__slide">
+
+        <!-- <div class="testimonial-slider__slide">
                         <p>
                         Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
                         Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
@@ -424,8 +423,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </cite>
                         </div>
                     </div> <!-- end testimonials__slide -->
-    
-                    <!-- <div class="testimonial-slider__slide">
+
+        <!-- <div class="testimonial-slider__slide">
                         <p>
                         Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
                         Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
@@ -439,8 +438,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </cite>
                         </div>
                     </div> end testimonials__slide -->
-    
-                    <!-- <div class="testimonial-slider__slide">
+
+        <!-- <div class="testimonial-slider__slide">
                         <p>
                         Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel dui. In ac felis 
                         quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit. 
@@ -456,12 +455,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div> 
                     <!-- end testimonials__slide -->
 
-                <!-- </div> <!-- end testimonial slider -->
-                
-            <!-- </div> <!-- end column -->
+        <!-- </div> <!-- end testimonial slider -->
+
+        <!-- </div> <!-- end column -->
 
         <!-- </div>  -->
-        
+
 
     </div> <!-- end s-clients -->
 
@@ -489,7 +488,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </div> -->
 
-    </section>  <!-- end s-contact -->
+    </section> <!-- end s-contact -->
 
 
     <!-- footer
@@ -501,15 +500,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="row">
                     <div class="column large-7 tab-12 s-footer__block">
                         <h4 class="h6">Temukan kami</h4>
-        
+
                         <p>
-                        Institut Teknologi Sepuluh Nopember <br>
-                        Surabaya, Indonesia <br>
-                        
-                        <!-- <a href="tel:08108108111">+628108108111</a> -->
+                            Institut Teknologi Sepuluh Nopember <br>
+                            Surabaya, Indonesia <br>
+
+                            <!-- <a href="tel:08108108111">+628108108111</a> -->
                         </p>
                     </div>
-        
+
                     <!-- <div class="column large-5 tab-12 s-footer__block">
                         <h4 class="h6">Follow Us</h4 class="h6">
         
@@ -527,7 +526,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a href="mailto:#0" class="btn h-full-width">Let's Talk</a>
 
                 <div class="ss-copyright">
-                    <span>Copyright Flare 2020</span> 
+                    <span>Copyright Flare 2020</span>
                     <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
                 </div>
             </div>
@@ -540,7 +539,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         </div>
     </footer>
-    
+
 
     <!-- photoswipe background
     ================================================== -->
@@ -557,9 +556,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="pswp__ui pswp__ui--hidden">
                 <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title="Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
                     <div class="pswp__preloader">
                         <div class="pswp__preloader__icn">
                             <div class="pswp__preloader__cut">
@@ -570,8 +567,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
                     <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
                 <div class="pswp__caption">
                     <div class="pswp__caption__center"></div>
                 </div>
