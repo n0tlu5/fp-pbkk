@@ -68,7 +68,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <li><a class="smoothscroll" href="#about" title="About">Tentang</a></li>
                     <li><a class="smoothscroll" href="#services" title="Services">Donasi</a></li>
                     <li><a class="smoothscroll" href="#portfolio" title="Works">Market</a></li>
-                    <li><a class="smoothscroll" href="/login.php" title="Login">Login</a></li>
+                    <li><a class="smoothscroll" href="/fp-pbkk/fp-pbkk/auth/login" title="Login">Login</a></li>
                 </ul>
             </nav> <!-- end s-header__nav-wrap -->
 
@@ -289,12 +289,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </a>
                     </div>
                     <div class="folio-item__info">
-                        <div class="folio-item__cat">Branding</div>
-                        <h4 class="folio-item__title">The Red Wheel</h4>
+                        <div class="folio-item__cat">Kesehatan</div>
+                        <h4 class="folio-item__title">Alat Pelindung Diri</h4>
                     </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <a href="#" title="Project Link" class="folio-item__project-link">Best Price</a>
                     <div class="folio-item__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        <p>Kualitas terbaik</p>
                     </div>
                 </div>
             </div> <!-- end column -->
@@ -307,12 +307,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </a>
                     </div>
                     <div class="folio-item__info">
-                        <div class="folio-item__cat">Frontend Design</div>
-                        <h4 class="folio-item__title">Music Life</h4>
+                        <div class="folio-item__cat">Kesehatan</div>
+                        <h4 class="folio-item__title">Masker</h4>
                     </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <a href="#" title="Project Link" class="folio-item__project-link">Best Price</a>
                     <div class="folio-item__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        <p>Kualitas terbaik.</p>
                     </div>
                 </div>
             </div> <!-- end column -->
@@ -325,12 +325,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </a>
                     </div>
                     <div class="folio-item__info">
-                        <div class="folio-item__cat">Branding</div>
-                        <h4 class="folio-item__title">OI Logo</h4>
+                        <div class="folio-item__cat">Kebutuhan</div>
+                        <h4 class="folio-item__title">Sembako</h4>
                     </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <a href="#" title="Project Link" class="folio-item__project-link">Best Price</a>
                     <div class="folio-item__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        <p>Kualitas terbaik.</p>
                     </div>
                 </div>
             </div> <!-- end column -->
@@ -343,53 +343,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </a>
                     </div>
                     <div class="folio-item__info">
-                        <div class="folio-item__cat">Frontend Design</div>
-                        <h4 class="folio-item__title">Corrugated Sheets</h4>
+                        <div class="folio-item__cat">Kebutuhan</div>
+                        <h4 class="folio-item__title">Buah-buahan dan Vitamin</h4>
                     </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
+                    <a href="#" title="Project Link" class="folio-item__project-link">Best Price</a>
                     <div class="folio-item__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        <p>Kualitas terbaik.</p>
                     </div>
                 </div>
             </div> <!-- end column -->
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="assets/images/portfolio/gallery/g-woodcraft.jpg" title="Sand Dunes" data-size="1050x700">
-                            <img src="assets/images/portfolio/woodcraft.jpg" 
-                                 srcset="assets/images/portfolio/woodcraft.jpg 1x, assets/images/portfolio/woodcraft@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">Frontend Design</div>
-                        <h4 class="folio-item__title">Wooocraft</h4>
-                    </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">
-                        Project Link
-                    </a>
-                    <div class="folio-item__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-                </div>
-            </div> <!-- end column -->
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="assets/images/portfolio/gallery/g-lamp.jpg" title="The Lamp" data-size="1050x700">
-                            <img src="assets/images/portfolio/lamp.jpg" 
-                                 srcset="assets/images/portfolio/lamp.jpg 1x, assets/images/portfolio/lamp@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">Frontend Design</div>
-                        <h4 class="folio-item__title">The Lamp</h4>
-                    </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
-                    <div class="folio-item__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-                </div>
-            </div> <!-- end column -->
+            
 
         </div> <!-- folio-list -->
 
