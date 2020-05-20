@@ -68,7 +68,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <li><a class="smoothscroll" href="#about" title="About">Tentang</a></li>
                     <li><a class="smoothscroll" href="#services" title="Services">Donasi</a></li>
                     <li><a class="smoothscroll" href="#portfolio" title="Works">Market</a></li>
-                    <li><a class="smoothscroll" href="/fp-pbkk/fp-pbkk/auth/login" title="Login">Login</a></li>
+                    <li><a href="<?php echo base_url("/auth/login") ?>" title="Login">Login</a></li>
                 </ul>
             </nav> <!-- end s-header__nav-wrap -->
 
