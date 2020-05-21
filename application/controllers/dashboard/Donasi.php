@@ -20,7 +20,7 @@ class Donasi extends CI_Controller {
 
     public function add() 
 	{
-		if($this->session->user_logged->role_id != "1") redirect(site_url('dashboard/donasi'));
+		// if($this->session->user_logged->role_id !== "1") redirect(site_url('dashboard/donasi'));
         $donasi = $this->donasi_model;
         $validation = $this->form_validation;
         $validation->set_rules($donasi->rules());
@@ -35,7 +35,7 @@ class Donasi extends CI_Controller {
 
     public function edit($id = null)
     {
-		if($this->session->user_logged->role_id != "1") redirect(site_url('dashboard/donasi'));
+		// if($this->session->user_logged->role_id !== "1") redirect(site_url('dashboard/donasi'));
         if (!isset($id)) redirect('dashboard/donasi');
        
         $donasi = $this->donasi_model;
@@ -55,7 +55,7 @@ class Donasi extends CI_Controller {
 
     public function delete($id=null)
     {
-		if($this->session->user_logged->role_id != "1") redirect(site_url('dashboard/donasi'));
+		// if($this->session->user_logged->role_id !== "1") redirect(site_url('dashboard/donasi'));
         if (!isset($id)) show_404();
         
         if ($this->donasi_model->delete($id)) {
