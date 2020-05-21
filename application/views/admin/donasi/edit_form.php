@@ -39,7 +39,7 @@
 
 							<form action="<?php base_url('dashboard/donasi/edit') ?>" method="post">
 
-								<input type="hidden" name="id" value="1" />
+								<input type="hidden" name="id" value="<?php echo $donasi->donasi_id ?>" />
 								
 								<div class="form-group">
 									<label for="nama">Nama Donatur*</label>
